@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fffaf2;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #ff8c00, #ffb347);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* Menú */
+nav {
+    background: #e67e22;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin: 0 8px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+}
+nav a:hover {
+    background: #f39c12;
+    border-radius: 5px;
+}
+
+/* Contenido */
+main {
+    padding: 40px;
+    text-align: center;
+}
+.bienvenida {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Galería */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.galeria img {
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea, select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+button {
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background: #f39c12;
+}
+
+/* Footer */
+footer {
+    background: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
